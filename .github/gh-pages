@@ -1,0 +1,24 @@
+name: gh-pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Build 
+        run: make install
+        run: make build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: docs/_site
+          commit_message: ${{ github.event.head_commit.message }}
