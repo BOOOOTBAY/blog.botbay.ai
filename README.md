@@ -4,16 +4,13 @@
 [![Build Status](https://travis-ci.com/PreAngel/pre-angel.com.svg?branch=master)](https://travis-ci.com/PreAngel/pre-angel.com)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg)](https://www.typescriptlang.org/)
 
-- Go to [PreAngel Portfolio Directory](https://www.pre-angel.com/portfolios/)
-- Go to [Onboarding Instructions](https://docs.google.com/presentation/d/1ZZnfK75alSBlYF4Zs22X0KCLwYiYR_7apXFv6a9LV3E/edit?usp=sharing)
-
-## Contribute to pre-angel.com repository
+## Contribute to blog.botbay.ai repository
 
 1. In the top-right corner of this page, click **Fork**.
 
 2. Clone a copy of your fork on your local, replacing *YOUR-USERNAME* with your Github username.
 
-   `git clone https://github.com/YOUR-USERNAME/pre-angel.com.git`
+   `git clone https://github.com/YOUR-USERNAME/blog.botbay.ai.git`
 
 3. **Create a branch**:
 
